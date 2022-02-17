@@ -2,7 +2,7 @@ import styled from "@emotion/styled"
 import ActivityCard from "./ActivityCard"
 
 const Deck = styled.div`
-	height: 100vh;
+	height: 95vh;
 	width: 100%;
 	position: relative;
 	display: flex;
@@ -27,8 +27,8 @@ const TestInner = styled.div`
 const ActivityCards = () => {
 	return (
 		<>
+			Please open this project on desktop, since it's currently not optimized for mobiles 
 			<Deck>
-				Please open this project on desktop, since it's currently not optimized for mobiles 
 				{[...Array(50)].map((item, index) => (
 					<ActivityCard nth={index} key={index} />
 				))}
