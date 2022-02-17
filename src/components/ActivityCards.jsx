@@ -28,7 +28,8 @@ const ActivityCards = () => {
 	return (
 		<>
 			<Deck>
-				{[...Array(100)].map((item, index) => (
+				Please open this project on desktop, since it's currently not optimized for mobiles 
+				{[...Array(50)].map((item, index) => (
 					<ActivityCard nth={index} key={index} />
 				))}
 			</Deck>
